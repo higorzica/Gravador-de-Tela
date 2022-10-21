@@ -1,0 +1,30 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_video {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.record-btn {
+    margin-left: 25px;
+    background: #FFF;
+    color: black;
+    border: 1px solid red;
+    font-size: 30px;
+    transition: .3s ease;
+}
+
+.record-btn:hover {
+    background: rgb(193, 26, 48);
+    color: black;
+    border: 1px solid black;
+}
